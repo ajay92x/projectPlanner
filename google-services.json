@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "429977903180",
+    "firebase_url": "https://kind-plannner.firebaseio.com",
+    "project_id": "kind-plannner",
+    "storage_bucket": "kind-plannner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429977903180:android:ccee2bc9daa5f650",
+        "android_client_info": {
+          "package_name": "com.kindplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429977903180-b77s03tr2fpjvmb3r1kchgn057chmadr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "429977903180-b77s03tr2fpjvmb3r1kchgn057chmadr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKQsMG6XdxzA1yF_o2Y50I9m6peAMBr7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

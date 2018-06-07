@@ -1,0 +1,116 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title> Ionic Blank </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <div class="registrationForm">
+        <ion-item>
+            <ion-label>
+                <ion-icon name="person"></ion-icon>
+            </ion-label>
+            <ion-input clearInput type="text" placeholder="Username"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>
+                <ion-icon name="key"></ion-icon>
+            </ion-label>
+            <ion-input clearInput type="password" placeholder="Password"></ion-input>
+        </ion-item>
+        <ion-item class="item-leave-height">
+            <ion-label>
+                <ion-icon name="list-box"></ion-icon>
+            </ion-label>
+            <ion-select class="custom-select" placeholder="Select value">
+                <ion-option value="CASUAL LEAVE">Casual Leave</ion-option>
+                <ion-option value="COMP OFF">Comp Off</ion-option>
+                <ion-option value="EARNED LEAVE">Earned Leave</ion-option>
+                <ion-option value="SICK LEAVE">Sick Leave</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label>Pepperoni</ion-label>
+            <ion-checkbox [(ngModel)]="pepperoni" color="primary"></ion-checkbox>
+        </ion-item>
+        <ion-item>
+            <ion-label>Sausage</ion-label>
+            <ion-checkbox [(ngModel)]="sausage" color="secondary"></ion-checkbox>
+        </ion-item>
+    </div>
+    <!-- <div>
+        <button id="notification-button" ion-button clear>
+        <ion-icon name="notifications">
+          <ion-badge id="notifications-badge" color="danger">5</ion-badge>
+        </ion-icon>              
+    </button>
+    </div>
+
+    <button ion-button icon-only>
+	<ion-badge color="accent">23</ion-badge>
+	<ion-icon name="notifications"></ion-icon>
+</button>
+    <br />
+
+    <input type="file" name="image" accept="image/*" (change)="changeListener($event)">
+
+    <button ion-button (click)="this.cop.getCurrentPositionFn()">Get CUrrent Position</button>
+
+    <button ion-button color="secondary" (click)="this.cop.watchPositionChangeFn()">Watch Position Change</button>
+
+    <button ion-button color="danger" (click)="this.cop.stopWatchingPositionChangeFn()">Stop Watching Position Change</button>
+
+    <button ion-button color="light" (click)="this.rateApp()">Rate Application</button>
+
+    <button ion-button color="dark" (click)="this.cop.getApplicationDetailFn()">Get Application Detail</button>
+
+    <button ion-button full (click)="this.cop.getImageFn()">Get Image</button>
+
+    <button ion-button full (click)="this.cop.cardScannerFn()">Card Scan</button>
+
+    <button ion-button block (click)="this.cop.openDatepickerFn()">Date Picker</button>
+
+    <button ion-button round (click)="this.cop.getDeviceDetailsFn()">Get Device Detail</button>
+
+    <button ion-button full outline (click)="this.cop.alertFn()">Custom Alert</button>
+
+    <button ion-button block outline (click)="this.cop.confirmFn()">Custom Confirm</button>
+
+    <button ion-button round outline (click)="this.cop.promptFn()">Custom Prompt</button>
+
+    <button ion-button round outline (click)="this.cop.beepFn()">Custom Beep</button>
+
+    <button ion-button round outline (click)="this.cop.toastFn()">Custom Toast</button>
+    <button ion-button round outline (click)="this.cop.showLoaderFn()">Custom Show Loader</button>
+    <button ion-button round outline (click)="this.cop.hideLoaderFn()">Hide Loader</button>
+
+
+    <button ion-button icon-start (click)="this.cop.showFingerprintFn()">
+  <ion-icon name="star"></ion-icon>
+  Finger Print Scanner
+</button>
+
+    <button ion-button icon-end (click)="this.cop.statusbarBgChangeFn()">Statusbar Color Change
+  <ion-icon name="star"></ion-icon>
+</button>
+
+    <button ion-button icon-only (click)="this.cop.watchNetworkConnectFn()">
+  <ion-icon name="star"></ion-icon>
+</button>
+
+    <button ion-button large (click)="this.cop.getFCMTokenFn()">FCM Token</button>
+
+    <button ion-button (click)="this.loginFn()">LOGIN</button>
+
+    <button ion-button small (click)="this.cop.hideLoaderFn()">Small</button>
+
+
+    <button ion-button [color]="isDanger ? 'danger' : 'primary'" [outline]="isOutline">Danger (Solid)</button>
+
+    <button ion-button [color]="myColor" [round]="isRound">Secondary (Round)</button>
+
+    <button ion-button [color]="isSecondary ? 'secondary' : 'primary'" [clear]="isClear">Primary (Clear)</button>
+
+    <button ion-button [color]="myColor2" [outline]="isOutline" [round]="isRound">Dark (Solid + Round)</button>
+
+    <button ion-button>Click me!</button>-->
+</ion-content>
